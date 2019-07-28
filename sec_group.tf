@@ -15,4 +15,11 @@ egress {
     protocol        = "-1"
     cidr_blocks     = ["0.0.0.0/0"]
   }
+
+  tags = {
+       Name = "Dev"
+       Dept = "IT"
+       Group = "April"
+       Created_by = "Zhazgul"
+  }
 }
